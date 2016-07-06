@@ -1,0 +1,15 @@
+{
+  "name": "dev_soc_irc",
+  "version": "1.0.0",
+  "description": "discussion platform for developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishekg785",
+  "license": "ISC",
+  "dependencies":{
+    "socket.io":"*",
+    "express":"*"
+  }
+}

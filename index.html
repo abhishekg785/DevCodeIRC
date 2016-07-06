@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link href = "css/main.css" type = 'text/css' rel = 'stylesheet'/>
+	</head>
+	<body>
+		<div id = 'userValidation'>
+			<form id = 'userForm'>
+				<input type = 'text' id = 'username' placeholder="Give Username"/><br/>
+				<input type = 'submit' id = 'submitUserForm' value = 'LogIn'/>
+			</form>
+		</div>
+		<div id = 'validatedSection'>
+			<div id = 'userSection'>
+        <h1>Users Online</h1>
+				<div id = 'onlineUserList'>
+					<ul></ul>
+				</div>
+			</div>
+			<div id = 'userChatSection'>
+				<div id = 'displayChat'>
+				</div>
+				<div id = 'messageForm'>
+					<input type="text" id = 'messageText' placeholder="Enter message here"/>
+				</div>
+			</div>
+		</div>
+		<script src = 'js/main.js'></script>
+	</body>
+</html>

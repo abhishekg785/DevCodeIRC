@@ -1,0 +1,116 @@
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  #userValidation{
+    height: 100%;
+    width: 100%;
+    background-color: #34495e;
+    /*display: none;*/
+  }
+
+  #userForm{
+    height: 50%;
+    width: 300px;
+    position: absolute;
+    /*background-color: #95a5a6;*/
+    top: 35%;
+    left: 40%;
+  }
+
+  #userForm input[type ="text"]{
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    opacity: 0.6;
+  }
+
+  #userForm input[type ="submit"]{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  #userForm input[type ="text"]:focus{
+    opacity: 1;
+  }
+
+  #validatedSection{
+    height: 100%;
+    width: 100%;
+    left:0px;
+    top:0px;
+    position: absolute;
+    background-color: #8e44ad;
+    display: none;
+  }
+
+  #userSection{
+    height: 100%;
+    width:20%;
+    background-color: #9b59b6;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    overflow-y: scroll;
+  }
+
+  #userSection h1{
+    font-size: 30px;
+    color:black;
+    position: absolute;
+    top:0px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  #onlineUserList{
+    width: 100%;
+    position: relative;
+    top:50px;
+  }
+
+  #onlineUserList ul{
+    list-style: none;
+    width: 100%;
+    position: absolute;
+  }
+  #onlineUserList li{
+    border-bottom: 2px solid black;
+    width:100%;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  #userChatSection{
+    height: 100%;
+    width:80%;
+    position: absolute;
+    left: 0px;
+    top:0px;
+  }
+
+  #messageForm{
+    position: absolute;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  #messageForm input[type = "text"]{
+    width: 100%;
+    font-size:30px;
+  }
+
+  #displayChat{
+    width: 100%;
+    position: absolute;
+    top:0px;
+    height: 95%;
+    overflow-y: scroll;
+  }
